@@ -1,0 +1,69 @@
+canvas 0 0 1000 1000
+
+shape sky rectangle
+shape sun ellipse
+shape moon1 ellipse
+shape moon2 ellipse
+shape star1 ellipse
+shape star2 ellipse
+shape star3 ellipse
+shape star4 ellipse
+shape star5 ellipse
+
+shape road rectangle
+
+shape house1 rectangle
+shape chimney rectangle
+shape housew1 rectangle
+shape housew2 rectangle
+shape housew3 rectangle
+shape housew4 rectangle
+shape housed rectangle
+shape doorknob ellipse
+
+shape treebot1 rectangle
+shape treetop1 ellipse
+shape treebot2 rectangle
+shape treetop2 ellipse
+
+shape carbot rectangle
+shape cartop rectangle
+shape window1 rectangle
+shape window2 rectangle
+shape carwheel1 ellipse
+shape carwheel2 ellipse
+
+motion sky 1 0 0 1000 800 255 170 0 100 0 0 1000 800 230 30 0
+motion sky 100 0 0 1000 800 230 30 0 110 0 0 1000 800 0 21 128
+motion sky 110 0 0 1000 800 0 21 128  200 0 0 1000 800 0 21 128
+motion sun 1 100 400 150 150 255 230 0  100 200 800 150 150 255 230 0
+motion moon1 110 200 800 150 150 230 230 230 200 500 200 150 150 230 230 230
+motion moon2 110 180 800 120 120 0 21 128 200 480 200 120 120  0 21 128
+motion star1 110 100 100 5 5 255 255 230 200 100 100 5 5 255 255 230
+motion star2 110 400 200 5 5 255 255 230 200 400 200 5 5 255 255 230
+motion star3 110 800 150 5 5 255 255 230 200 800 150 5 5 255 255 230
+motion star4 110 300 123 5 5 255 255 230 200 300 123 5 5 255 255 230
+motion star5 110 600 175 5 5 255 255 230 200 600 175 5 5 255 255 230
+
+motion road 1 0 800 1000 200 20 20 20  200 0 800 1000 200 20 20 20
+
+motion house1 1 700 600 200 200 0 0 77  200 700 600 200 200 0 0 77
+motion housew1 1 710 610 80 80 255 255 255 200 710 610 80 80 255 255 255
+motion housew2 1 810 610 80 80 255 255 255 200 810 610 80 80 255 255 255
+motion housew3 1 710 710 50 80 255 255 255 200 710 710 50 80 255 255 255
+motion housew4 1 840 710 50 80 255 255 255 200 840 710 50 80 255 255 255
+motion housed 1 770 740 30 50 78 38 0  200 770 740 30 50 78 38 0
+motion chimney 1 850 550 30 50 0 0 77  200 850 550 30 50 0 0 77
+motion doorknob 1 775 770 5 5 255 255 0 200 775 770 5 5 255 255 0
+
+motion treebot1 1 200 700 20 100 78 38 0  200 200 700 20 100 78 38 0
+motion treetop1 1 158 630 100 100 0 180 30  200 158 630 100 100 0 180 30
+motion treebot2 1 400 700 20 100 78 38 0  200 400 700 20 100 78 38 0
+motion treetop2 1 358 630 100 100 0 180 30  200 358 630 100 100 0 180 30
+
+motion carbot 1 100 770 120 20 200 0 0  200 900 770 120 20 200 0 0
+motion cartop 1 115 755 90 15 200 0 0  200 915 755 90 15 200 0 0
+motion window1 1 120 757 35 15 255 255 255  200 920 757 35 15 255 255 255
+motion window2 1 163 757 35 15 255 255 255  200 963 757 35 15 255 255 255
+motion carwheel1 1 120 780 20 20 20 0 0  200 920 780 20 20 20 0 0
+motion carwheel2 1 180 780 20 20 20 0 0  200 980 780 20 20 20 0 0
